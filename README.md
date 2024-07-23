@@ -77,16 +77,6 @@ Create a responsive landing page for a website. The landing page should include 
   - Instructions on how to run the project locally.
   - Are there any additional notes or features you implemented?
 
-**Evaluation Criteria:**
-
-- **Functionality**: Does the landing page meet the requirements and function as expected?
-- **Code Quality**: Is the code well-structured, readable, and maintainable?
-- **Design and UX**: Is the landing page visually appealing and user-friendly?
-- **Responsiveness**: Does the page adapt well to different screen sizes and devices?
-- **Cross-Browser Compatibility**: Does the page work consistently across different browsers?
-- **Animations and Creativity**: Are the animations smooth and enhancing the user experience? Does the page show creative and unique design elements?
-
-
 
 ## FAQs
 
