@@ -20,7 +20,7 @@ Create a responsive landing page for a website. The landing page should include 
 1. **Header with Mega Menu**:
     - Create a header section at the top of the page.
     - Include the company's logo on the left side.
-    - Implement a mega menu that appears on hover/click on the main navigation items.
+    - Implement a mega menu that appears on hover/click on the main navigation items. [ **This is an optional task, but it is a bonus in grading. If time does not allow, do it using the regular menu]
     - Ensure the mega menu is responsive and user-friendly.
     
 2. **Product Comparison Table**:
