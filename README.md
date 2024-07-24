@@ -42,6 +42,7 @@ Create a responsive landing page for a website. The landing page should include 
       3. **Review & Submit**: Display a summary of the information entered and a submit button.
     - Validate the form fields at each step.
     - Ensure the form is responsive and user-friendly.
+    - **Add Animation**: Add smooth transitions between steps, such as sliding or fading effects.
     
 4. **Footer**:
     - As time allows, you can create a footer section at the bottom of the page with or without links.
