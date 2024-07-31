@@ -13,7 +13,7 @@
 
 **Objective:**
 
-Create a responsive landing page for a website. The landing page should include a header with a mega menu, a product comparison table with advanced features, a wizard form, and a footer. 
+Create a responsive landing page for a website. The landing page should include a header with a mega menu, a product comparison table with advanced features, a wizard form, and a footer.  Make sure to develop it from scratch using vanilla HTML, CS, JS and not using any libraries (jQuery, etc.) or frameworks (Bootstrap, etc.)
 
 **Instructions:**
 
