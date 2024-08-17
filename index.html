@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>One.com</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/footer.css">
+    <link rel="stylesheet" type="text/css" href="css/form.css">
+    <link rel="stylesheet" type="text/css" href="css/model.css">
+
+
+</head>
+
+<body>
+    <header>
+        <div class="nav-fixed">
+            <div class="top-nav">
+                <span onclick="openNav()" class="mobile-nav">&#9776;</span>
+                <div id="myNav" class="overlay">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <div class="overlay-content">
+                      <a href="#">Domain</a>
+                      <a href="#">Website</a>
+                      <a href="#">Web hosting</a>
+                      <a href="#">All products</a>
+                    </div>
+                  </div>
+                <div class="logo"><img src="images/logo.png" alt="logo" /></div>
+                <div class="navbar">
+                    <a href="#">Domain</a>
+                    <a href="#">Website</a>
+                    <div class="dropdown">
+                        <button class="dropbtn">Web hosting &#11163;
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <div class="header">
+                                <h2>Web hosting</h2>
+                            </div>
+                            <div class="row">
+                                <div class="column">
+                                    <h3>Category 1</h3>
+                                    <a href="#">Link 1</a>
+                                    <a href="#">Link 2</a>
+                                    <a href="#">Link 3</a>
+                                </div>
+                                <div class="column">
+                                    <h3>Category 2</h3>
+                                    <a href="#">Link 1</a>
+                                    <a href="#">Link 2</a>
+                                    <a href="#">Link 3</a>
+                                </div>
+                                <div class="column">
+                                    <h3>Category 3</h3>
+                                    <a href="#">Link 1</a>
+                                    <a href="#">Link 2</a>
+                                    <a href="#">Link 3</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#">VPS</a>
+                    <a href="#">All products</a>
+                </div>
+                <div class="helpnav">
+                    <a href="#" class="plan">Plans & pricing</a>
+                    <a href="#" class="help">Help</a>
+                    <a class="login-btn">Log in</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="plans-table">
+        <h1>Millions of customers trust us with their websites</h1>
+        <div class="plan-fetures">
+            <p><img src="images/checkmark.svg" alt="checkmark" /> first choice for domain hosting</p>
+            <p><img src="images/checkmark.svg" alt="checkmark" />Reliable online partner</p>
+            <p><img src="images/checkmark.svg" alt="checkmark" />24-hour support</p>
+        </div>
+        <div class="tabbed-plans-content">
+            <div class="tabbed-plans">
+                <div class="single-plan">
+                    <div class="single-plan-heading">
+                        <h3 class="single-plan-title">Guru </h3>
+                        <p class="tag">Pro</p>
+                    </div>
+                    <p>Best for businesses</p>
+                    <div class="price-tag">
+                        <span class="currency">$ </span>
+                        <span class="price">0</span>
+                        <span class="monthly">/3 mo.</span>
+                        <span class="notice">*</span>
+                    </div>
+                    <p class="price-tag-renew">After that $ 26.99 /mo.</p>
+                    <button class="cta">Get started</button>
+                    <div class="features">
+                        <h4>Key features</h4>
+                        <ul>
+                            <li>10 websites supported</li>
+                            <li>750 GB <span id="myBtn">SSD storage</span></li>
+                            <li>Unlimited mail accounts with premium features</li>
+                            <li>Daily backup & restore</li>
+                        </ul>
+                    </div>
+                    <div class="features">
+                        <h4>Also included</h4>
+                        <ul>
+                            <li><span>Free site protection</span></li>
+                            <li><span>Free SEO tool</span></li>
+                            <li><span>Free advanced WordPress tools</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="single-plan featured">
+                    <div class="featured-text">
+                        Best value
+                    </div>
+                    <h3 class="single-plan-title">Enthusiast</h3>
+                    <p>Best for entrepreneurs</p>
+                    <div class="price-tag">
+                        <span class="currency">$ </span>
+                        <span class="price">0</span>
+                        <span class="monthly">/3 mo.</span>
+                        <span class="notice">*</span>
+                    </div>
+                    <p class="price-tag-renew">After that $ 17.99 /mo.</p>
+                    <button class="cta active-cta">Get started</button>
+                    <div class="features">
+                        <h4>Key features</h4>
+                        <ul>
+                            <li>5 websites supported</li>
+                            <li>200 GB <span>SSD storage</span></li>
+                            <li>Unlimited mail accounts</li>
+                            <li>Daily backup & restore</li>
+                        </ul>
+                    </div>
+                    <div class="features">
+                        <h4>Also included</h4>
+                        <ul>
+                            <li><span>1-click WordPress install</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="single-plan">
+                    <h3 class="single-plan-title">Explorer</h3>
+                    <p>Best for blogs</p>
+                    <div class="price-tag">
+                        <span class="currency">$ </span>
+                        <span class="price">0</span>
+                        <span class="monthly">/3 mo.</span>
+                        <span class="notice">*</span>
+                    </div>
+                    <p class="price-tag-renew">After that $ 12.99 /mo.</p>
+                    <button class="cta">Get started</button>
+                    <div class="features">
+                        <h4>Key features</h4>
+                        <ul>
+                            <li>1 websites supported</li>
+                            <li>100 GB <span>SSD storage</span></li>
+                            <li>Unlimited mail accounts</li>
+                            <li>Daily backup</li>
+                        </ul>
+                    </div>
+                    <div class="features">
+                        <h4>Also included</h4>
+                        <ul>
+                            <li><span>WordPress install </span></li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="single-plan">
+                    <h3 class="single-plan-title">Beginner</h3>
+                    <p>Best for small projects</p>
+                    <div class="price-tag">
+                        <span class="currency">$ </span>
+                        <span class="price">0</span>
+                        <span class="monthly">/3 mo.</span>
+                        <span class="notice">*</span>
+                    </div>
+                    <p class="price-tag-renew">After that $ 6.99 /mo.</p>
+                    <button class="cta">Get started</button>
+                    <div class="features">
+                        <h4>Key features</h4>
+                        <ul>
+                            <li>1 websites supported</li>
+                            <li>50 GB <span>SSD storage</span></li>
+                            <li>Unlimited mail accounts</li>
+                            <li>Daily backup</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="signup">
+        <div class="signup-form-container">
+            <form class="signup-form">
+                <h2> Sign up</h2>
+                <div class="signup-formItem">
+                    <label for="username">Name</label>
+                    <input tabindex="1" id="username" class="username" placeholder="Enter Your Name" name="username"
+                        value="" type="text" autofocus="" autocomplete="off">
+                </div>
+                <div class="signup-formItem">
+                    <label for="useremail">Emil</label>
+                    <input tabindex="1" id="useremail" class="useremail" placeholder="Enter Your Email" name="useremail"
+                        value="" type="email" autofocus="" autocomplete="off">
+                </div>
+                <div class="signup-formItem">
+                    <label for="userphone">Phone Number</label>
+                    <input tabindex="1" id="userphone" class="userphone" placeholder="Enter Your Phone Number"
+                        name="userphone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" value="" type="tel" autofocus=""
+                        autocomplete="off">
+                </div>
+                <div class="signup-formItem">
+                    <label for="userpre">Product Preferences</label>
+                    <div class="radio-container">
+                        <input checked="" id="user-pre-0-25" name="user-pre" type="radio" value="0-25">
+                        <label for="user-pre-0-25">Guru</label>
+                        <input id="user-pre-25-50" name="user-pre" type="radio" value="25-50">
+                        <label for="user-pre-25-50">Enthusiast</label>
+                        <input id="user-pre-50-100" name="user-pre" type="radio" value="50-100">
+                        <label for="user-pre-50-100">Explorer</label>
+                        <input id="user-pre-100-plus" name="user-pre" type="radio" value="100+">
+                        <label for="user-pre-100-plus">Beginner</label>
+                    </div>
+                </div>
+                <input tabindex="4" class="Login-submit" name="login" id="kc-login" type="submit" value="Sign Up">
+            </form>
+        </div>
+        <div class="signup-content-container">
+            <div class="Login-text">
+                <h2>Know someone who needs a website?</h2>
+                <p>Refer a friend or a local business you know to one.com and help them bring their idea to life on the
+                    web. All referred customers get a discount on their first purchase, and you get a cash reward too.
+                </p>
+                <p>Log in to your control panel and start earning your referral bonus today.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="Footer-container-sections">
+            <div class="Footer-section">
+                <h3>Products</h3>
+                <div class="features">
+                    <ul>
+                        <li>Domains</li>
+                        <li>Hosting</li>
+                        <li>Email</li>
+                        <li>Website Builder</li>
+                        <li>WordPress</li>
+                        <li>Online Shop</li>
+                        <li>Office 365</li>
+                        <li>VPS</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="Footer-section">
+                <h3>Information</h3>
+                <div class="features">
+                    <ul>
+                        <li>System status</li>
+                        <li>Prices</li>
+                        <li>Whois</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="Footer-section">
+                <h3>Resources</h3>
+                <div class="features">
+                    <ul>
+                        <li>Academy</li>
+                        <li>Help center</li>
+                        <li>Glossary</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="Footer-section">
+                <h3>Company</h3>
+                <div class="features">
+                    <ul>
+                        <li>About us</li>
+                        <li>Careers</li>
+                        <li>News</li>
+                        <li>Partners</li>
+                        <li>Contact us</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+    </footer>
+    <div class="Footer-Bottom">
+        <div class="SocialShare">
+            <div class="linkedin"></div>
+            <div class="youtube"></div>
+            <div class="instagram"></div>
+            <div class="twitter"></div>
+            <div class="facebook"></div>
+            <div class="pinterest"></div>
+        </div>
+        <div class="LanguageContainer">
+            <img src="images/footer-language-selector-icon.svg" alt="language" />
+            <p>English &#11163;</p>
+        </div>
+        <div>
+
+        </div>
+    </div>
+    <div class="Footer-container-section">
+        <div class="footer-one">
+            <div class="Copyright">
+                <p> © one.com 2024</p>
+            </div>
+            <div class="Policies">
+                <a href="#" target="_blank">
+                    Terms
+                </a>
+                <a href="#">
+                    Product &amp; Privacy Policies
+                </a>
+                <a href="#">
+                    Cookie Policy
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>We offer SSD storage</h2>
+            <p> SSD storage is one of the fastest in the market, meaning your website performs well and delivers content
+                (text, video & images) quickly to your visitors.
+
+                Our plans offer plenty of space, but be aware when choosing the right one for you that automatic backups
+                will also count toward your disk usage.</p>
+        </div>
+
+    </div>
+    <script src="js/model.js"></script>
+</body>
+
+</html>

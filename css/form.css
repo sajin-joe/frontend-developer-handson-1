@@ -1,0 +1,182 @@
+.signup {
+    background-image: url(../images/cp.c1266867.jpg);
+    min-height: 41.875rem;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+.signup-form-container {
+    flex: 1;
+    padding: 3.75rem;
+    margin: auto 0;
+}
+
+.signup-form {
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+    margin: auto;
+    background-color: #ffffff;
+    max-width: 30rem;
+}
+
+.signup-form h2 {
+    font-size: 1.875rem;
+    line-height: 1;
+    font-weight: 600;
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+
+.signup-formItem {
+    display: flex;
+    flex-direction: column;
+}
+
+.signup-formItem label {
+    font-size: 15px;
+    line-height: 1;
+    margin-bottom: 15px;
+    margin-top: 25px;
+}
+
+.signup-formItem input {
+    line-height: 21px;
+    border: 1px solid #c6c6c6;
+    color: #3c3c3c;
+    border-radius: 27px;
+    padding: 15px 1.875rem;
+    outline: 0 none;
+    font-size: 15px;
+}
+
+.signup-formItem .user-pre .radio-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.radio-container {
+    background: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    display: inline-block;
+    padding: 5px;
+}
+
+.radio-container input[type=radio]:checked+label {
+    background: #76b82a;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    color: #fff;
+}
+
+.radio-container label {
+    background: transparent;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    display: inline-block;
+    height: 36px;
+    line-height: 36px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    transition: 0.2s all ease-in-out;
+    width: 80px;
+}
+
+.radio-container input[type=radio] {
+    display: none;
+}
+
+.Login-submit {
+    background-color:#76b82a;
+    line-height: 51px;
+    padding: 0 50px;
+    border-radius: 27px;
+    font-size: 15px;
+    color: #ffffff;
+    border: 2px solid #76b82a;
+    outline: 0 none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.signup-content-container {
+    background-color: rgba(60, 60, 60, 0.6);
+    flex: 1;
+    padding: 0 60px 60px;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Login-text {
+    margin: auto;
+    max-width: 30rem;
+}
+
+.Login-text h2 {
+    font-size: 1.875rem;
+    font-weight: 600;
+    margin-bottom: 1.875rem;
+    line-height: 37px;
+    color: #ffffff;
+}
+
+.Login-text p {
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 0;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 992px) {
+    .signup {
+        flex-direction: column;
+        padding: 40px 20px;
+    }
+
+    .signup-form-container {
+        padding: 0;
+    }
+
+    .signup-form {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        margin: auto;
+        background-color: #ffffff;
+        max-width: 30rem;
+    }
+    .signup-form h2 {
+        font-size: 24px;
+    }
+
+    .signup-content-container {
+        padding: 0 20px 20px;
+    }
+
+    .Login-text h2 {
+        font-size: 24px;
+    }
+
+    .signup-formItem input {
+        line-height: 16px;
+    }
+
+    .radio-container input[type=radio]:checked+label {
+        width: 100%;
+    }
+
+    .radio-container label {
+        width: 100%;
+    }
+
+    .Login-submit {
+        line-height: 36px;
+        border-radius: 20px;
+    }
+}

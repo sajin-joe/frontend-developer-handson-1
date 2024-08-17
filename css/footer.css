@@ -1,0 +1,146 @@
+footer {
+    color: #FFF;
+    background-color: #3C3C3C;
+    position: relative;
+    padding: 40px 10.3125rem 30px 10.3125rem    ;
+}
+
+.Footer-section {
+    width: 100%;
+}
+
+.Footer-container-sections {
+    display: flex;
+    width: 100%;
+}
+
+.Footer-Bottom {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: #3C3C3C;
+    background-color: #F7F7F7;
+}
+
+.Footer-Bottom .SocialShare {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.Footer-section h3 {
+    font-size: 1.25rem;
+    line-height: normal;
+    letter-spacing: initial;
+    margin: 0 0 1.25rem 0;
+    font-weight: 600;
+}
+
+.SocialShare .linkedin {
+    background-image: url(../images/footer-social-dark-linkedin.svg);
+}
+
+.SocialShare .youtube {
+    background-image: url(../images/footer-social-dark-youtube.svg);
+}
+
+.SocialShare .instagram {
+    background-image: url(../images/footer-social-dark-instagram.svg);
+}
+
+.SocialShare .twitter {
+    background-image: url(../images/footer-social-dark-twitter.svg);
+}
+
+.SocialShare .facebook {
+    background-image: url(../images/footer-social-dark-facebook.svg);
+}
+
+.SocialShare .pinterest {
+    background-image: url(../images/footer-social-dark-pinterest.svg);
+}
+
+.Footer-Bottom .SocialShare div {
+    display: block;
+    height: inherit;
+    width: 1.75rem;
+    margin: 0 10px 0 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    height: 1.75rem;
+    display: flex;
+    align-items: center;
+}
+
+.LanguageContainer {
+    display: flex;
+    margin-left: 6.25rem;
+}
+
+.LanguageContainer p {
+    margin-left: 10px;
+}
+
+.Footer-container-section {
+    background-color: #3C3C3C;
+    color: #FFF;
+    padding: 20px 10.3125rem;
+
+}
+
+.footer-one {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Policies {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Policies a {
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.875rem;
+    color: #FFF;
+    margin-right: 1.875rem;
+    display: block;
+    text-decoration: none;
+}
+
+.Copyright p {
+    margin: 0;
+    line-height: 1.875rem;
+}
+
+@media screen and (max-width: 992px) {
+    footer, .Footer-container-section, .Footer-Bottom  {
+        padding: 1.25rem;
+    }
+
+    .Footer-container-sections {
+        flex-direction: column;
+        width: 100%;
+    }
+    .footer-one {
+        flex-direction: column;
+        width: 100%;
+    }
+    .Copyright {
+        text-align: center;
+    }
+    .Policies {
+        flex-direction: column;
+        width: 100%;
+    }
+    .features {
+        min-height: unset;
+    }
+    .Footer-section h3 {
+        margin: 1.875rem 0 0px 0;
+
+    }
+}

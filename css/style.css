@@ -1,0 +1,421 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3C3C3C;
+}
+
+header {
+    position: sticky;
+    width: 100%;
+    top: 0;
+    z-index: 9;
+}
+.mobile-nav {
+    display: none;
+}
+.top-nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto 0 auto;
+    padding: 0 3.75rem 0 3.75rem;
+    box-sizing: border-box;
+    top: 0;
+    height: 6.25rem;
+    background-color: #fff;
+    border-bottom: 1px solid #ededed;
+    justify-content: space-around;
+}
+
+.logo {
+    margin: 0 4.375rem 0 0;
+    display: flex;
+}
+
+.logo img {
+    width: 8.125rem;
+}
+
+.navbar {
+    overflow: hidden;
+}
+
+.navbar a {
+    float: left;
+    font-size: 1rem;
+    color: #3c3c3c;
+    text-align: center;
+    padding: 2.3125rem 0.9375rem;
+    text-decoration: none;
+}
+
+.helpnav {
+    display: flex;
+    width: 30%;
+    justify-content: flex-end;
+}
+
+.helpnav a {
+    padding: 2.3125rem 0.9375rem;
+    text-decoration: none;
+    color: #3c3c3c;
+    font-size: 14px;
+}
+
+.helpnav .login-btn {
+    padding: 5px 20px;
+    margin: 30px 0.9375rem;
+    border: 1px solid #0078c8;
+    color: #0078c8;
+    border-radius: 100px;
+    height: 30px;
+    text-wrap: nowrap;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    color: #3c3c3c;
+    padding: 2.125rem 0.9375rem;
+    background-color: inherit;
+    font: inherit;
+    margin: 0;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+    background-color: #f7f7f7;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 100%;
+    left: 0;
+    box-shadow: 0px 0.5rem 1rem 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content .header {
+    background: #76b82a;
+    padding: 1rem;
+    color: white;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 0.625rem;
+    background-color: #f7f7f7;
+    height: 15.625rem;
+}
+
+.column a {
+    float: none;
+    color: black;
+    padding: 1rem;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.column a:hover {
+    background-color: #ddd;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.plans-table {
+    background-color: #f7f7f7;
+    padding: 70px;
+}
+
+.plan-fetures {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.plans-table h1 {
+    text-align: center;
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 400;
+    letter-spacing: 0.25px;
+    color: #3C3C3C;
+    margin-top: 0;
+}
+
+.plans-table p {
+    color: #3C3C3C;
+}
+
+.plans-table img {
+    margin-right: 10px;
+}
+
+.tabbed-plans {
+    display: flex;
+    width: 100%;
+}
+
+.single-plan {
+    border: 1px solid #3c3c3c;
+    padding: 40px 20px 0px 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 50px;
+    position: relative;
+    border-radius: 5px;
+    margin: 5px;
+}
+.single-plan.featured {
+    margin-top: -20px;
+    background-color: #76b82a;
+    color: #FFF;
+}
+.single-plan.featured p, .price-tag-renew{
+    color: #FFF;
+    margin: 0;
+}
+.single-plan-heading {
+    display: flex;
+}
+
+.single-plan-heading .tag {
+    margin: 0;
+    padding: 0 10px;
+    font-size: 14px;
+    line-height: 28px;
+    font-weight: 500;
+    color: #0078C8;
+    border: 1px solid #0078C8;
+    border-radius: 4px;
+    letter-spacing: 0.5px;
+    margin-left: 10px;
+}
+
+.single-plan-title {
+    margin: 0;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+/* .single-plan p {
+    font-size: 18px;
+    line-height: 24px;
+    margin-top: 10px;
+  } */
+.price-tag {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    font-size: 30px;
+    line-height: 50px;
+}
+
+.price-tag .currency {
+    font-size: 16px;
+    line-height: 24px;
+    margin-right: 5px;
+}
+
+.price-tag .price {
+    margin-right: 10px;
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.price-tag .monthly,
+.notice {
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+}
+
+.price-tag-renew {
+    margin: 0;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.25px;
+    margin-bottom: 30px;
+    color: #8A8989;
+}
+
+.cta {
+    display: block;
+    width: 100%;
+    padding: 9px 15px;
+    min-height: 40px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+    background-color: #76b82a;
+    color: #FFF;
+    border: 1px solid #3C3C3C;
+    border-radius: 5px;
+    box-sizing: border-box;
+    outline: 0;
+    cursor: pointer;
+}
+.cta:hover {
+    background-color: #f7f7f7;
+    color: #76b82a;
+    border: 1px solid #76b82a;
+}
+.active-cta {
+    color: #fff;
+    background-color: #3C3C3C;
+    border: 1px solid #FFF;
+}
+
+.features {
+    min-height: 212px;
+}
+
+.features h4 {
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: bold;
+}
+
+.features ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.features ul li {
+    display: block;
+    padding-top: 20px;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.features span {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.featured-text {
+    font-size: 14px;
+    line-height: 40px;
+    font-weight: 500;
+    color: #fff;
+    border-radius: 5px;
+    background-color: #76b82a;
+    border: 1px solid #FFF;
+    text-align: center;
+}
+
+
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+
+    .navbar,
+    .plan,
+    .help {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .mobile-nav {
+        display: block;
+        font-size:20px;
+        cursor:pointer;
+        padding-right: 20px;
+        line-height: 20px;
+    }
+    .top-nav {
+        padding: 30px;
+    }
+    .plan-fetures {
+        flex-direction: column;
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+
+    .plan-fetures p {
+        margin: 0;
+    }
+
+    .plans-table {
+        padding: 50px 30px;
+        text-align: center;
+    }
+
+    .plans-table h1 {
+        font-size: 18px;
+        line-height: 24px;
+        font-weight: 500;
+        letter-spacing: 0.25px;
+    }
+
+    .tabbed-plans-content {
+        overflow: hidden;
+        overflow-x: scroll;
+    }
+
+    .tabbed-plans {
+        width: fit-content;
+    }
+
+    .tabbed-plans .single-plan {
+        position: relative;
+        width: 256px;
+        padding: 40px 20px 50px 20px;
+    }
+
+    .helpnav .login-btn {
+        font-weight: 600;
+        font-size: 12px;
+        padding: 7px 10px;
+        white-space: nowrap;
+    }
+    .single-plan.featured {
+        margin-top: 0px;
+    }
+
+}
+
+@media (min-width: 1023px) and (max-width : 1100px) {
+    .logo {
+        margin: 0;
+    }
+
+}
